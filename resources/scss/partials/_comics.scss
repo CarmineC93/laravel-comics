@@ -1,0 +1,10 @@
+.card{
+    width: calc(100% / 6 - 10px);
+    background-color: transparent;
+    
+    h5{
+        margin: 0.8rem;
+        color: white;
+        text-transform: uppercase;
+    }
+}

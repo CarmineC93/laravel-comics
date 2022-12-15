@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-html{
-    font-family: 'Encode Sans Condensed', sans-serif;
-}
 
 body{
     background-color: black;
@@ -35,9 +32,11 @@ li{
 .flex{
     display:flex;
 }
+
 .flex-between{
     justify-content: space-between;
 }
+
 .align-center{
     align-items: center;
 }

@@ -1,17 +1,16 @@
 .big-footer{
-    background-image: url(../assets/img/footer-bg.jpg);
+    background-image: url(../img/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
     .container{
         padding: 0;
     
-
         .lists{
             padding: 1rem;
             flex-grow: 0.7;
             gap: 2.5rem;
-            color: white;
+            color: rgb(255, 255, 255);
     
             h5{
                 margin: 0.5rem 0;
@@ -24,13 +23,13 @@
     
         .dc-logo-bg{
             flex-grow: 1;
-            background-image: url(../assets/img/dc-logo-bg.png);
+            background-image: url("../img/dc-logo-bg.png");
             background-position: center;
             background-size: cover;
         }
     }
-
 }
+
 .sub-footer{
     background-color: rgb(54, 54, 54);
 

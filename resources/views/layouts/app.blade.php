@@ -13,12 +13,19 @@
 </head>
 
 <body>
+
     @include('partials.header')
+
     <main>
+        @include('partials.content')
+        @include('partials.services')
+
+
         @yield('content')
     </main>
 
-    {{-- @include('partials.footer') --}}
+    @include('partials.footer')
+
 </body>
 
 </html>
