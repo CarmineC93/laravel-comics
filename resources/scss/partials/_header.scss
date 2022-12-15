@@ -1,3 +1,25 @@
 header{
-    background-color: black;
+    background-color: white;
+    line-height: 60px;
+    .container{
+        padding: 0 1rem 0 1rem;
+    
+        .logo img{
+            width: 60px;
+            vertical-align: middle;
+            margin: 1rem 0;
+
+        }
+
+        ul{
+            gap: 20px;
+
+            a{
+                font-size: 0.8rem;
+                font-weight: 600;
+                display: inline-block;
+                line-height: inherit;
+            }
+        }
+    }
 }

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    padding: 1rem;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style: none;
+}
+
+.flex{
+    display:flex;
+}
+.flex-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}

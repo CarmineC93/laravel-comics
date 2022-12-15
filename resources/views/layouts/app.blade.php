@@ -13,12 +13,12 @@
 </head>
 
 <body>
-
+    @include('partials.header')
     <main>
         @yield('content')
-        <H1>HOME</H1>
     </main>
 
+    {{-- @include('partials.footer') --}}
 </body>
 
 </html>
