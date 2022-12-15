@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>DC COMICS</title>
 
     <!-- Styles -->
     @vite('resources/js/app.js')
@@ -16,7 +16,7 @@
 
     <main>
         @yield('content')
-
+        <H1>HOME</H1>
     </main>
 
 </body>
