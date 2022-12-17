@@ -1,3 +1,48 @@
+@php
+    $pages = [
+        [
+            'item_text' => 'Characters',
+            'route_name' => '',
+        ],
+        [
+            'item_text' => 'Comics',
+            'route_name' => 'comics.index',
+        ],
+        [
+            'item_text' => 'Movies',
+            'route_name' => '',
+        ],
+        [
+            'item_text' => 'Tv',
+            'route_name' => '',
+        ],
+        [
+            'item_text' => 'Games',
+            'route_name' => '',
+        ],
+        [
+            'item_text' => 'Collectibles',
+            'route_name' => '',
+        ],
+        [
+            'item_text' => 'Videos',
+            'route_name' => '',
+        ],
+        [
+            'item_text' => 'Fans',
+            'route_name' => '',
+        ],
+        [
+            'item_text' => 'News',
+            'route_name' => '',
+        ],
+        [
+            'item_text' => 'Shop',
+            'route_name' => '',
+        ],
+    ];
+@endphp
+
 <header>
 
     <div class="header-top">
@@ -20,7 +65,10 @@
         <ul class="flex align-center">
             @foreach ($pages as $page)
                 <li>
-                    <a href="/">{{ $page }}</a>
+                    {{-- aggiunta classe attiva --}}
+                    <a class="{{ Route::currentRouteName() === $page['route_name'] ? 'active' : '' }}"
+                        {{-- aggiunto un controllo che verifica la presenza di elementi da stampare --}}
+                        href="{{ $page['route_name'] != '' ? route($page['route_name']) : '' }}">{{ $page['item_text'] }}</a>
                 </li>
             @endforeach
         </ul>

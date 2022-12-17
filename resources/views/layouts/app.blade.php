@@ -16,12 +16,14 @@
 
     @include('partials.header')
 
+
+
     <main>
+        @yield('content')
+
         @include('partials.content')
         @include('partials.services')
 
-
-        @yield('content')
     </main>
 
     @include('partials.footer')
