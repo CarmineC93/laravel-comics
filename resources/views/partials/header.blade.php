@@ -1,5 +1,15 @@
 <header>
-    <nav class="container flex flex-between">
+
+    <div class="header-top">
+        <div class="container">
+            <ul>
+                <li><a href="">DC Power Visa</a></li>
+                <li><a href="">Additional DC sites</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <nav class="header-bottom container flex flex-between">
 
         <div class="logo">
             <a href="/">
